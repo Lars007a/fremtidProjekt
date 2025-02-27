@@ -5,6 +5,8 @@ nav {
   z-index: 100;
   background-color: transparent;
 
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+
   width: 100%;
 
   /* container i nav */
@@ -80,17 +82,18 @@ nav {
 
 .showColors {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-  background-color: var(--primaryColor) !important;
-
-  & ul li:last-of-type {
-    cursor: default;
-    background-color: var(--primaryColor) !important;
-  }
+  /*   background-color: var(--primaryColor) !important;
+ */
+  background-color: var(--primaryColor);
 
   & ul li:hover {
     background-color: var(--navHover);
   }
 
+  & ul li:last-of-type {
+    cursor: default;
+    background-color: transparent;
+  }
   & .logo h2 {
     font-size: 24px;
     color: var(--navText);
