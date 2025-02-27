@@ -1,0 +1,72 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* css vars */
+:root {
+  --primaryColor: #1e3a8a; /* primær farve */
+  --navHover: #183173;
+  --navText: #fdfdfd;
+  --navTextDark: #322f2f;
+
+  --accent: #f97316; /* for ting såsom knapper, osv. */
+  --accentHover: #d76310;
+
+  --secondaryColor: #0e83b6; /* sekundær */
+  --backgroundColor: #f3f4f6; /* baggrunden */
+  --titleColor: #322f2f; /* overskrifter */
+  --textColor: #fdfdfd; /* brødtekst */
+}
+
+/* base css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--textColor);
+  font-size: 28px;
+  font-family: "Orbitron", serif;
+}
+
+p {
+  color: var(--textColor);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  font-family: "Roboto", sans-serif;
+}
+
+/* container */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    width: 1400px;
+  }
+}
