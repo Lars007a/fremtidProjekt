@@ -1,4 +1,5 @@
 import styles from "./footer.module.css";
+import CopyrightInfo from "../copyrightInfo/copyrightInfo.jsx";
 
 export default function footer() {
   return (
@@ -12,6 +13,7 @@ export default function footer() {
 
             <div style={{ display: "flex", flexDirection: "row", gap: 40 }}>
               <ul>
+                <li className={styles.linksTitle}>Titel</li>
                 <li>
                   <a href="#">sec1</a>
                 </li>
@@ -29,6 +31,7 @@ export default function footer() {
                 </li>
               </ul>
               <ul>
+                <li className={styles.linksTitle}>Titel</li>
                 <li>
                   <a href="#">sec1</a>
                 </li>
@@ -48,6 +51,7 @@ export default function footer() {
             </div>
           </div>
         </div>
+        <CopyrightInfo />
       </footer>
     </>
   );

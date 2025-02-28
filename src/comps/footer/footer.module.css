@@ -24,7 +24,7 @@ footer {
   & ul li a {
     text-decoration: none;
     color: var(--navText);
-    font-size: 18px;
+    font-size: 16px;
     transition: opacity 0.2s;
   }
 
@@ -37,6 +37,12 @@ footer {
 
   & .footerLogo h2 {
     font-size: 28px;
+  }
+
+  & .linksTitle {
+    color: var(--navText);
+    font-weight: 500;
+    font-size: 16px;
   }
 }
 
