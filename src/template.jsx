@@ -18,6 +18,14 @@ function App() {
         }}
       />
 
+      <div
+        style={{
+          width: "100%",
+          height: "50vh",
+          backgroundColor: "transparent",
+        }}
+      />
+
       <Footer />
     </>
   );

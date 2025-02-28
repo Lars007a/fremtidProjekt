@@ -14,7 +14,7 @@ export default function header() {
             aperiam.
           </p>
           <div className={styles.btnCon}>
-            <button>Se mere!</button>
+            <button>Se PDF</button>
           </div>
         </div>
       </header>

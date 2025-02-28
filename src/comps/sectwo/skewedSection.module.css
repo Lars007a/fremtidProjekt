@@ -1,0 +1,12 @@
+.box {
+  padding: 100px 0px;
+  width: 100%;
+  background-color: var(--primaryColor);
+  transform: skewY(3deg);
+  margin-bottom: 100px;
+
+  & .contentBox {
+    transform: skewY(-3deg);
+    color: var(--textColor);
+  }
+}

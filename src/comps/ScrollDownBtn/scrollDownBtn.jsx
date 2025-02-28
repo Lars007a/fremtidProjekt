@@ -6,7 +6,7 @@ export default function scrollDownBtn() {
     <>
       <a href="#">
         <button className={styles.btn}>
-          <FaAngleDoubleDown color="#ffffff" size={20} />
+          Se mere <FaAngleDoubleDown color="#ffffff" size={20} />
         </button>
       </a>
     </>
