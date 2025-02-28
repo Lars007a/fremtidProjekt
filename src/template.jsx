@@ -2,7 +2,7 @@ import "./template.css";
 import Header from "./comps/header/header.jsx";
 import Navbar from "./comps/navbar/navbar.jsx";
 import Footer from "./comps/footer/footer.jsx";
-import Section from "./comps/section/section.jsx";
+import Intro from "./comps/Intro/Intro.jsx";
 import ScrollDownBtn from "./comps/ScrollDownBtn/scrollDownBtn.jsx";
 
 function App() {
@@ -10,13 +10,14 @@ function App() {
     <>
       <Navbar />
       <Header />
-      <Section
+      <Intro
         children={<ScrollDownBtn />}
         contentObj={{
           title: "Titel",
           text: "bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         }}
       />
+
       <Footer />
     </>
   );

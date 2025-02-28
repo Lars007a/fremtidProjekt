@@ -1,4 +1,4 @@
-import styles from "./section.module.css";
+import styles from "./Intro.module.css";
 
 export default function section({ children, contentObj }) {
   return (
