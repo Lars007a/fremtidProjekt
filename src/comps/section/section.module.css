@@ -1,5 +1,42 @@
 .sec {
   width: 100%;
-  height: 50vh;
-  background-color: var(--secondaryColor);
+  background-color: var(--navHover);
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.3);
+
+  & .secContent {
+    padding: 40px 0px;
+  }
+
+  & .thickLine {
+    width: 100%;
+    height: 1px;
+    margin: 20px 0px;
+    background-color: var(--primaryColor);
+    background-color: var(--textColor);
+    background-color: var(--secondaryColor);
+  }
+
+  & h2 {
+    color: var(textColor);
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 28px;
+  }
+
+  & p {
+    color: var(textColor);
+    width: 70%;
+    margin: 0 auto;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+
+  & .childrenContainer {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }

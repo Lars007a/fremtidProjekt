@@ -1,0 +1,17 @@
+.btn {
+  background-color: var(--accent);
+  border: 0;
+  border-radius: 365px;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  display: grid;
+  place-content: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--accentHover);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
