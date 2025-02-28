@@ -4,6 +4,9 @@ export default function header() {
   return (
     <>
       <header>
+        <video autoPlay muted loop>
+          <source src="/bc.mp4" type="video/mp4" />
+        </video>
         <div class={styles.headerText}>
           <h1>Overskrift</h1>
           <p>

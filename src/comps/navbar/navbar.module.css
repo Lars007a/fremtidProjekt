@@ -45,7 +45,7 @@ nav {
     text-decoration: none;
     cursor: pointer;
     font-size: 16px;
-    color: var(--navTextDark);
+    color: var(--navText);
   }
 
   /* logo i nav */
@@ -58,7 +58,7 @@ nav {
 
   & .logo h2 {
     font-size: 24px;
-    color: var(--navTextDark);
+    color: var(--navText);
   }
 
   /* knappen i nav */

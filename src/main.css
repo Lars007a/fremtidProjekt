@@ -9,12 +9,14 @@
   --navTextDark: #322f2f;
 
   --accent: #f97316; /* for ting såsom knapper, osv. */
-  --accentHover: #d76310;
+  --accentHover: #c26421;
 
   --secondaryColor: #0e83b6; /* sekundær */
   --backgroundColor: #f3f4f6; /* baggrunden */
   --titleColor: #322f2f; /* overskrifter */
   --textColor: #fdfdfd; /* brødtekst */
+
+  --HeaderTextColor: #fdfdfd;
 }
 
 /* base css */
