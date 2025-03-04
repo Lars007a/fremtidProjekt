@@ -125,7 +125,7 @@ nav {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 15px 0px;
+      padding: 20px 0px;
     }
   }
 }
@@ -141,8 +141,8 @@ nav {
       display: block;
       position: fixed;
       z-index: 100;
-      right: 25px;
-      top: 25px;
+      right: 30px;
+      top: 0px;
     }
 
     /* få containeren til at fylde hele skærmen. */
