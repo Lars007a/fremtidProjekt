@@ -1,0 +1,15 @@
+.box {
+  padding: 30px 0px;
+  width: 100%;
+  background-color: var(--navHover);
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.3);
+
+  & .content {
+  }
+
+  & .title {
+    color: var(--textColor);
+    font-size: 25px;
+    text-align: center;
+  }
+}

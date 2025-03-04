@@ -1,6 +1,6 @@
 .sec {
   width: 100%;
-  background-color: var(--navHover);
+  background-color: var(--primaryColor);
   box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.3);
 
   & .secContent {
