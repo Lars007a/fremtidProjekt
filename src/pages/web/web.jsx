@@ -7,6 +7,8 @@ import BlueSection from "../../comps/blueSection/blueSection.jsx";
 import Cardssec from "../../comps/cardssec/cardssec.jsx";
 import styles from "./web.module.css";
 
+import Infoboxes from "../../comps/infoboxes/infoboxes.jsx";
+
 export default function web() {
   return (
     <>
@@ -21,6 +23,8 @@ export default function web() {
       />
 
       <Cardssec />
+
+      <Infoboxes />
 
       <BlueSection />
       <Footer />

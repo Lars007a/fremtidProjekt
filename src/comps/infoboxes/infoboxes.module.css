@@ -1,0 +1,13 @@
+.boxes {
+  width: 100%;
+  color: var(--textColor);
+
+  font-size: 18px;
+
+  & ul {
+    display: flex;
+
+    flex-direction: column;
+    gap: 30px;
+  }
+}
