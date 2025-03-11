@@ -2,7 +2,7 @@ import styles from "./imgFullSec.module.css";
 
 import { useRef, useEffect } from "react";
 
-export default function imgFullSec({ obj }) {
+export default function imgFullSec({ obj, children }) {
   const box = useRef(null);
 
   useEffect(() => {
@@ -37,7 +37,7 @@ export default function imgFullSec({ obj }) {
             <div className={styles.flexGrid}>
               <article>
                 <h2>{obj?.title}</h2>
-                <p>{obj?.content}</p>
+                {children}
               </article>
               <div className={styles.imgBox}>
                 <img src={obj?.img} alt="img" />

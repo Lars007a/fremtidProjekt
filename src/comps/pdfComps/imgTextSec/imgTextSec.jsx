@@ -2,7 +2,7 @@ import styles from "./imgTextSec.module.css";
 
 import { useRef, useEffect } from "react";
 
-export default function imgTextSec({ obj }) {
+export default function imgTextSec({ obj, children }) {
   const box = useRef(null);
 
   useEffect(() => {
@@ -36,9 +36,7 @@ export default function imgTextSec({ obj }) {
           <div className={styles.content}>
             <h2>{obj?.title}</h2>
             <div className={styles.flexGrid}>
-              <article>
-                <p>{obj?.content}</p>
-              </article>
+              <article>{children}</article>
               <div className={styles.imgBox}>
                 <img src={obj?.img} alt="img" />
               </div>

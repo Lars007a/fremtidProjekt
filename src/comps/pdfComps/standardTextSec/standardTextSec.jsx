@@ -1,7 +1,8 @@
 import styles from "./standardTextSec.module.css";
 import { useRef, useEffect } from "react";
+import ImgBcSec from "../imgBcSec/imgBcSec";
 
-export default function standardTextSec({ obj }) {
+export default function standardTextSec({ obj, children }) {
   const box = useRef(null);
 
   useEffect(() => {
@@ -31,11 +32,9 @@ export default function standardTextSec({ obj }) {
   return (
     <>
       <section className={styles.sec} ref={box}>
+        <ImgBcSec title={obj?.title} />
         <div className="container">
-          <div className={styles.content}>
-            <h2>{obj?.title}</h2>
-            <p>{obj?.content}</p>
-          </div>
+          <div className={styles.content}>{children}</div>
         </div>
       </section>
     </>
