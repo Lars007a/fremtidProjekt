@@ -1,5 +1,6 @@
 .infoboxsec {
-  background-color: var(--backgroundColor);
+  background-color: var(--primaryColor);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
 
   & .content {
     width: 100%;
@@ -7,5 +8,14 @@
   }
 
   & h2 {
+    color: var(--textColor);
+  }
+
+  & h2::after {
+    background-color: var(--textColor);
+  }
+
+  & h2::before {
+    background-color: var(--textColor);
   }
 }

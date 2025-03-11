@@ -1,6 +1,6 @@
 .item {
   border-radius: 8px;
-  background-color: var(--primaryColor);
+  background-color: var(--backgroundColor);
   padding: 12px 20px;
   font-weight: 400;
 
@@ -16,10 +16,11 @@
     font-size: 18px;
     font-weight: 400;
     float: left;
+    color: var(--primaryColor);
   }
 
   & svg {
-    color: var(--textColor);
+    color: var(--primaryColor);
     font-size: 18px;
     float: right;
     cursor: pointer;
@@ -28,6 +29,7 @@
 
   & .itemContent p {
     font-weight: 300;
+    color: var(--titleColor);
   }
 
   & .itemContent.show {

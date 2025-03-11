@@ -1,6 +1,7 @@
 import styles from "./standardTextSec.module.css";
 import { useRef, useEffect } from "react";
 import ImgBcSec from "../imgBcSec/imgBcSec";
+import Line from "../../line/line.jsx";
 
 export default function standardTextSec({ obj, children }) {
   const box = useRef(null);
