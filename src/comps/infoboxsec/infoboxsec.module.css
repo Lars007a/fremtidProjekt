@@ -1,0 +1,14 @@
+.infoboxsec {
+  background-color: red;
+
+  & .content {
+    width: 100%;
+    padding: 30px 0px;
+  }
+
+  & h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--textColor);
+  }
+}
