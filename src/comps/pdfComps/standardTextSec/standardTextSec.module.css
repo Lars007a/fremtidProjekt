@@ -1,0 +1,51 @@
+.sec {
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.3);
+
+  & .content {
+    padding: 30px 0px;
+  }
+
+  & h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  & p {
+    font-size: 18px;
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .sec {
+    & p {
+      width: 100%;
+    }
+  }
+}
+
+.sec.blue {
+  background-color: var(--primaryColor);
+}
+
+.sec.dark {
+  background-color: var(--navHover);
+}
+
+.sec.light {
+  background-color: var(--secondaryColor);
+}
+
+.sec.white {
+  background-color: var(--textColor);
+
+  & h2 {
+    color: var(--titleColor);
+  }
+
+  & p {
+    color: var(--titleColor);
+  }
+}
