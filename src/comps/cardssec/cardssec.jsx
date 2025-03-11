@@ -1,6 +1,7 @@
 import styles from "./cardssec.module.css";
 import Card from "../card/card.jsx";
 import { scroll, motion } from "motion/react";
+import Line from "../line/line.jsx";
 
 export default function cardssec() {
   return (
@@ -8,7 +9,7 @@ export default function cardssec() {
       <div className={styles.cardssec}>
         <div className="container">
           <div className={styles.title}>
-            <h2>Title</h2>
+            <Line>Title</Line>
           </div>
           <motion.div
             className={styles.content}

@@ -1,0 +1,30 @@
+.line h2 {
+  overflow: hidden;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  font-size: 25px;
+
+  color: var(--primaryColor);
+
+  margin-bottom: 20px;
+}
+
+.line h2:before,
+.line h2:after {
+  background-color: var(--primaryColor);
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+.line h2:before {
+  right: 1.5rem;
+  margin-left: -50%;
+}
+.line h2:after {
+  left: 1.5rem;
+  margin-right: -50%;
+}

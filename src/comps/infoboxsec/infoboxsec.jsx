@@ -1,6 +1,7 @@
 import styles from "./infoboxsec.module.css";
 import Infoboxes from "../infoboxes/infoboxes.jsx";
 import InfoboxItem from "../infoboxItem/infoboxItem.jsx";
+import Line from "../line/line.jsx";
 
 export default function infoboxsec({ title }) {
   return (
@@ -8,7 +9,7 @@ export default function infoboxsec({ title }) {
       <div className={styles.infoboxsec}>
         <div className="container">
           <div className={styles.content}>
-            <h2>{title}</h2>
+            <Line>Titel</Line>
             <Infoboxes>
               <InfoboxItem
                 obj={{

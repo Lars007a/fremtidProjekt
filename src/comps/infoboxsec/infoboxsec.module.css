@@ -1,5 +1,5 @@
 .infoboxsec {
-  background-color: red;
+  background-color: var(--backgroundColor);
 
   & .content {
     width: 100%;
@@ -7,8 +7,5 @@
   }
 
   & h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    color: var(--textColor);
   }
 }
