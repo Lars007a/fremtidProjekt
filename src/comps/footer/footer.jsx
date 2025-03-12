@@ -9,12 +9,12 @@ export default function footer() {
         <div class="container">
           <div className={styles.fotCon}>
             <div class={styles.footerLogo}>
-              <h2>Logo</h2>
+              <h2>Fremtiden</h2>
             </div>
 
             <div style={{ display: "flex", flexDirection: "row", gap: 40 }}>
               <ul>
-                <li className={styles.linksTitle}>Fremtiden</li>
+                <li className={styles.linksTitle}>Hjemmeside</li>
                 <li>
                   <HashLink to="/web#overblik">
                     Hvordan virker og bruges
