@@ -3,6 +3,7 @@ import Line from "../line/line.jsx";
 import { useRef, useEffect } from "react";
 import ImgBcSec from "../pdfComps/imgBcSec/imgBcSec.jsx";
 import SkewedSec from "../sectwo/skewSection.jsx";
+import { motion } from "motion/react";
 
 export default function infosec({
   title,

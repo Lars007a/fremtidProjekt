@@ -23,7 +23,7 @@ export default function web() {
       <Textsec
         contentObj={{
           title: "Introduktion",
-          text: "Kunstig intelligens kan i dag skabe tekster, billeder, videoer og meget mere. Ofte sker dette på få sekunder eller minutter. Modeller som ChatGPT kan skrive artikler og historier, mens andre modeller kan lave billeder på baggrund af en simpel beskrivelse. AI ændrer måden, vi skaber og forbruger digitalt indhold på – men hvordan ville det påvirke os og internettet?",
+          text: "Kunstig intelligens kan i dag skabe tekster, billeder, videoer og meget mere. Ofte sker dette på få sekunder eller minutter. Modeller som ChatGPT kan skrive artikler og historier, mens andre modeller kan lave billeder på baggrund af en simpel beskrivelse. AI ændrer måden, vi laver og forbruger indhold på internettet på – men hvordan ville det påvirke os og internettet?",
         }}
       >
         <ScrollDownBtn
@@ -60,7 +60,7 @@ export default function web() {
         id={"social"}
       >
         <Text small={true}>
-          På sociale medier bruges AI til at kuratere indhold, der matcher
+          På sociale medier bruges AI til at finde indhold, der matcher
           brugerens interesser og adfærd. Dette skaber en mere personlig
           oplevelse, men kan også føre til "echo chambers," hvor brugerne kun
           ser indhold, der bekræfter deres eksisterende holdninger. Fremtiden
@@ -81,7 +81,7 @@ export default function web() {
           En af de største udfordringer ved AI-genereret indhold er risikoen for
           misinformation og manipulation. Deepfake-teknologier og AI-genererede
           billeder kan bruges til at sprede falske nyheder, der ser utroligt
-          ægte ud. For at bekæmpe dette er der behov for regulering, teknologi
+          ægte ud. For at bekæmpe dette er der behov for regulering og teknologi
           til at spotte manipulation. Men siden dette nok ikke er nok, skal man
           altid være kildekritisk.
         </Text>

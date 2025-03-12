@@ -41,9 +41,6 @@ export default function pdfSite() {
           allerede haft en betydelig indflydelse på, hvordan vi konsumerer
           information, shopper, kommunikerer og underholder os. Men samtidig
           rejser det også vigtige spørgsmål om ægthed, originalitet og ansvar.
-          Hvad betyder det for vores digitale liv, når en stor del af det
-          indhold, vi støder på online, er skabt af maskiner? Og hvordan kan vi
-          sikre, at denne teknologi bruges på en måde, der gavner samfundet?
         </Text>
       </StandardTextSec>
 
@@ -67,7 +64,7 @@ export default function pdfSite() {
           model (llm), der kan skrive tekster, der er svær at skælne fra tekster
           skrevet af mennesker. ChatGPT og lignende modeller bruges i vid
           udstrækning på internettet til alt fra kundeservice-chatbots til at
-          generere indhold til blogs og nyhedssites.
+          generere indhold til blogs og nyhedshjemmesider.
         </Text>
         <Text>
           På billedsiden har vi værktøjer som DALL-E, som kan skabe billeder

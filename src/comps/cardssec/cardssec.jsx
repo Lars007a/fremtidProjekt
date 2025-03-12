@@ -25,28 +25,28 @@ export default function cardssec() {
                   title:
                     "Hvordan AI genereret indhold virker og bruges på internettet",
                   text: "AI bruger algoritmer og data til at generere indhold. Eksempler: ChatGPT til tekst, DALL-E til billeder, deepfakes til videoer.",
-                  href: "/pdf#overblik",
+                  href: "/pdf",
                 }}
               />
               <Card
                 content={{
                   title: "AI-genereret indhold og sociale medier",
                   text: "AI styrer, hvad vi ser på sociale medier, hvilket skaber personlige oplevelser men også risiko for echo chambers og polarisering.",
-                  href: "/pdf#social",
+                  href: "/pdf",
                 }}
               />
               <Card
                 content={{
                   title: "Udfordringer med AI-genereret indhold på internettet",
                   text: "AI genereret indhold kan være med til at sprede misinformation gennem deepfakes. Løsninger inkluderer regulering, software og kildekritik.",
-                  href: "/pdf#udfordringer",
+                  href: "/pdf",
                 }}
               />
               <Card
                 content={{
                   title: "Personalisering af indhold",
-                  text: "AI tilpasser indhold til brugerens præferencer, hvilket øger engagement men det er også udfordringer associeret med dette.",
-                  href: "/pdf#personalisering",
+                  text: "AI kan bruges til at tilpasse indhold til brugerens præferencer, hvilket øger engagement men det er også udfordringer associeret med dette.",
+                  href: "/pdf",
                 }}
               />
             </div>
@@ -54,7 +54,7 @@ export default function cardssec() {
               content={{
                 title: "AI genereret indhold og Søgemaskiner",
                 text: "AI kan erstatte traditionelle søgninger og måder at lave research på med direkte svar, hvilket kan føre til bias og svække kritisk tænkning.",
-                href: "/pdf#soegemaskiner",
+                href: "/pdf",
               }}
             />
           </motion.div>
