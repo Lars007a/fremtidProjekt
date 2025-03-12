@@ -10,4 +10,8 @@
     letter-spacing: 1px;
     line-height: 1.4rem;
   }
+
+  & p.small {
+    width: 50%;
+  }
 }

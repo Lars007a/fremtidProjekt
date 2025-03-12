@@ -1,6 +1,6 @@
 import styles from "./header.module.css";
 
-export default function header() {
+export default function header({ btnText, btnHref }) {
   return (
     <>
       <header>
@@ -8,13 +8,16 @@ export default function header() {
           <source src="/bc.mp4" type="video/mp4" />
         </video>
         <div class={styles.headerText}>
-          <h1>Overskrift</h1>
+          <h1>AI genereret indhold på internettet</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-            aperiam.
+            Kunstig intelligens skaber i dag tekster, billeder, videoer og endda
+            musik. Hvordan påvirker det vores digitale verden – og hvad bringer
+            fremtiden?
           </p>
           <div className={styles.btnCon}>
-            <button>Se PDF</button>
+            <a href={btnHref}>
+              <button>{btnText}</button>
+            </a>
           </div>
         </div>
       </header>

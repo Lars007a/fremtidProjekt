@@ -1,10 +1,10 @@
 import styles from "./text.module.css";
 
-export default function text({ children }) {
+export default function text({ children, small }) {
   return (
     <>
       <div className={styles.text}>
-        <p>{children}</p>
+        <p className={`${small ? styles.small : ""}`}>{children}</p>
       </div>
     </>
   );

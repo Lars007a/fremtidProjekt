@@ -1,14 +1,15 @@
 import { FaAngleDoubleDown } from "react-icons/fa";
 import styles from "./scrollDownBtn.module.css";
+import { HashLink } from "react-router-hash-link";
 
-export default function scrollDownBtn() {
+export default function scrollDownBtn({ btnText, icon, href }) {
   return (
     <>
-      <a href="#">
+      <HashLink to={href}>
         <button className={styles.btn}>
-          Se mere <FaAngleDoubleDown color="#ffffff" size={20} />
+          {btnText} {icon}
         </button>
-      </a>
+      </HashLink>
     </>
   );
 }

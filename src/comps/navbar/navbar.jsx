@@ -3,6 +3,7 @@ import { useRef, useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { GrClose } from "react-icons/gr";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { HashLink } from "react-router-hash-link";
 
 export default function navbar() {
   const nav = useRef();
@@ -53,22 +54,22 @@ export default function navbar() {
             </div>
             <ul onClick={handleNavTurn}>
               <li>
-                <a href="#">sec1</a>
+                <HashLink to="/pdf#overblik">sec2</HashLink>
               </li>
               <li>
-                <a href="#">sec2</a>
+                <HashLink to="/pdf#overblik">sec2</HashLink>
               </li>
               <li>
-                <a href="#">sec3</a>
+                <HashLink to="/pdf#overblik">sec2</HashLink>
               </li>
               <li>
-                <a href="#">sec4</a>
+                <HashLink to="/pdf#overblik">sec2</HashLink>
               </li>
               <li>
-                <a href="#">sec5</a>
+                <HashLink to="/pdf#overblik">sec2</HashLink>
               </li>
               <li>
-                <a href="#">
+                <a href="/pdf">
                   <button>Se PDF</button>
                 </a>
               </li>

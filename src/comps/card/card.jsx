@@ -1,5 +1,5 @@
 import styles from "./card.module.css";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function card({ content }) {
   return (
@@ -12,13 +12,9 @@ export default function card({ content }) {
         </div>
 
         <div className={styles.btnCon}>
-          <Link
-            to={{
-              pathname: "/pdf",
-            }}
-          >
-            <button>Ting</button>
-          </Link>
+          <HashLink to={content?.href}>
+            <button>Læs mere</button>
+          </HashLink>
         </div>
       </div>
     </>

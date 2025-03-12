@@ -32,7 +32,7 @@ export default function standardTextSec({ obj, children }) {
 
   return (
     <>
-      <section className={styles.sec} ref={box}>
+      <section id={obj?.id} className={styles.sec} ref={box}>
         {obj?.imgHeader == true ? (
           <ImgBcSec title={obj?.title} />
         ) : (

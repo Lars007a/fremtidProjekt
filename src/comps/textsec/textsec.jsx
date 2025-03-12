@@ -8,6 +8,7 @@ export default function section({ children, contentObj }) {
           <div className={styles.secContent}>
             <h2>{contentObj.title}</h2>
             <p>{contentObj.text}</p>
+            {contentObj.sourceList ? contentObj.sourceList : ""}
             <div className={styles.childrenContainer}>{children}</div>
           </div>
         </div>
