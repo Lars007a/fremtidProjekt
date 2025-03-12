@@ -40,6 +40,7 @@ export default function web() {
         skewed={true}
         imgHeader={false}
         bcColor={1}
+        id={"overblik"}
       >
         <Text small={true}>
           AI-genereret indhold er baseret på avancerede algoritmer og store
@@ -56,6 +57,7 @@ export default function web() {
         skewed={false}
         title={"AI-genereret indhold og sociale medier"}
         bcColor={3}
+        id={"social"}
       >
         <Text small={true}>
           På sociale medier bruges AI til at kuratere indhold, der matcher
@@ -73,6 +75,7 @@ export default function web() {
         skewed={false}
         title={"Udfordringer med AI-genereret indhold på internettet"}
         bcColor={1}
+        id={"udfordringer"}
       >
         <Text small={true}>
           En af de største udfordringer ved AI-genereret indhold er risikoen for
@@ -90,6 +93,7 @@ export default function web() {
         skewed={false}
         title={"Personalisering af indhold"}
         bcColor={4}
+        id={"personalisering"}
       >
         <Text small={true}>
           AI og AI genereret indhold gør det muligt for en dybere
@@ -107,6 +111,7 @@ export default function web() {
         imgHeader={true}
         skewed={false}
         title={"AI genereret indhold og søgemaskiner"}
+        id={"soegemaskiner"}
       >
         <Text small={true}>
           AI er ved at ændre, hvordan vi søger information på internettet. I

@@ -61,9 +61,22 @@
     text-decoration: none;
     color: var(--textColor);
     transition: opacity 0.2s;
+    font-weight: 300;
+    text-align: center;
   }
 
   ul li a:hover {
     opacity: 0.8;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sec ul li a {
+    font-size: 16px;
+  }
+
+  .sec ul {
+    width: 80%;
+    margin: 0 auto;
   }
 }

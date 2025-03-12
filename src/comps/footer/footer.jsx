@@ -1,5 +1,6 @@
 import styles from "./footer.module.css";
 import CopyrightInfo from "../copyrightInfo/copyrightInfo.jsx";
+import { HashLink } from "react-router-hash-link";
 
 export default function footer() {
   return (
@@ -13,39 +14,43 @@ export default function footer() {
 
             <div style={{ display: "flex", flexDirection: "row", gap: 40 }}>
               <ul>
-                <li className={styles.linksTitle}>Titel</li>
+                <li className={styles.linksTitle}>Fremtiden</li>
                 <li>
-                  <a href="#">sec1</a>
+                  <HashLink to="/web#overblik">
+                    Hvordan virker og bruges
+                  </HashLink>
                 </li>
                 <li>
-                  <a href="#">sec2</a>
+                  <HashLink to="/web#social">Sociale medier</HashLink>
                 </li>
                 <li>
-                  <a href="#">sec3</a>
+                  <HashLink to="/web#udfordringer">Udfordringer</HashLink>
                 </li>
                 <li>
-                  <a href="#">sec4</a>
+                  <HashLink to="/web#personalisering">Personalisering</HashLink>
                 </li>
                 <li>
-                  <a href="#">sec5</a>
+                  <HashLink to="/web#soegemaskiner">Søgemaskiner</HashLink>
                 </li>
               </ul>
               <ul>
-                <li className={styles.linksTitle}>Titel</li>
+                <li className={styles.linksTitle}>Dokument</li>
                 <li>
-                  <a href="#">sec1</a>
+                  <HashLink to="/pdf#overblik">
+                    Hvordan virker og bruges
+                  </HashLink>
                 </li>
                 <li>
-                  <a href="#">sec2</a>
+                  <HashLink to="/pdf#social">Sociale medier</HashLink>
                 </li>
                 <li>
-                  <a href="#">sec3</a>
+                  <HashLink to="/pdf#udfordringer">Udfordringer</HashLink>
                 </li>
                 <li>
-                  <a href="#">sec4</a>
+                  <HashLink to="/pdf#personalisering">Personalisering</HashLink>
                 </li>
                 <li>
-                  <a href="#">sec5</a>
+                  <HashLink to="/pdf#soegemaskiner">Søgemaskiner</HashLink>
                 </li>
               </ul>
             </div>

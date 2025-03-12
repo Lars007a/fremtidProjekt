@@ -23,5 +23,12 @@
     font-weight: 500;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     color: var(--textColor);
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sec h2 {
+    font-size: 22px;
   }
 }

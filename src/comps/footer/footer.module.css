@@ -26,6 +26,7 @@ footer {
     color: var(--navText);
     font-size: 16px;
     transition: opacity 0.2s;
+    font-weight: 300;
   }
 
   & ul li a:hover {
@@ -41,7 +42,7 @@ footer {
 
   & .linksTitle {
     color: var(--navText);
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
   }
 }

@@ -10,6 +10,7 @@ export default function infosec({
   imgHeader,
   bcColor,
   children,
+  id,
 }) {
   const box = useRef(null);
 
@@ -43,7 +44,7 @@ export default function infosec({
 
   return (
     <>
-      <div className={`${styles.box}`} ref={box}>
+      <div className={`${styles.box}`} ref={box} id={id}>
         {imgHeader == true ? (
           <ImgBcSec title={title} />
         ) : (

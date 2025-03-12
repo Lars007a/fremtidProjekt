@@ -31,3 +31,21 @@
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 850px) {
+  .box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .box .text p {
+    float: none;
+  }
+
+  .box .img img {
+    height: 75%;
+    width: 75%;
+  }
+}

@@ -50,23 +50,23 @@ export default function navbar() {
         <div className="container">
           <div className={styles.navCon}>
             <div class={styles.logo}>
-              <h2>Logo</h2>
+              <h2>Fremtiden</h2>
             </div>
             <ul onClick={handleNavTurn}>
               <li>
-                <HashLink to="/pdf#overblik">sec2</HashLink>
+                <HashLink to="/web#overblik">Hvordan virker og bruges</HashLink>
               </li>
               <li>
-                <HashLink to="/pdf#overblik">sec2</HashLink>
+                <HashLink to="/web#social">Sociale medier</HashLink>
               </li>
               <li>
-                <HashLink to="/pdf#overblik">sec2</HashLink>
+                <HashLink to="/web#udfordringer">Udfordringer</HashLink>
               </li>
               <li>
-                <HashLink to="/pdf#overblik">sec2</HashLink>
+                <HashLink to="/web#personalisering">Personalisering</HashLink>
               </li>
               <li>
-                <HashLink to="/pdf#overblik">sec2</HashLink>
+                <HashLink to="/web#soegemaskiner">Søgemaskiner</HashLink>
               </li>
               <li>
                 <a href="/pdf">

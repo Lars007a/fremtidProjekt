@@ -30,3 +30,18 @@
   left: 1.5rem;
   margin-right: -50%;
 }
+
+@media (max-width: 1200px) {
+  .line h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 850px) {
+  .line h2:before {
+    display: none;
+  }
+  .line h2:after {
+    display: none;
+  }
+}
