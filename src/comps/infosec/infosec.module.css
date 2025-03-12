@@ -1,0 +1,98 @@
+.box {
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+  padding: 30px 0px;
+
+  & p {
+    color: var(--titleColor);
+  }
+
+  & .content {
+  }
+}
+
+.box.skewed {
+  padding: 30px 0px 0px 0px !important;
+  & p {
+    color: var(--textColor) !important;
+  }
+
+  & .content {
+    margin: 50px 0px;
+  }
+}
+
+.box.imgHeader {
+  padding: 30px 0px;
+
+  & .content {
+    padding: 30px 0px 0px 0px;
+  }
+}
+
+box.white {
+  background-color: var(--backgroundColor);
+  & p {
+    color: var(--titleColor);
+  }
+}
+
+.box.second {
+  background-color: var(--secondaryColor);
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.3);
+  & p {
+    color: var(--textColor);
+  }
+
+  & h2 {
+    color: var(--textColor);
+  }
+
+  & h2::before,
+  h2::after {
+    background-color: var(--textColor);
+  }
+}
+
+.box.third {
+  background-color: var(--primaryColor);
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.3);
+
+  & p {
+    color: var(--textColor);
+  }
+
+  & h2 {
+    color: var(--textColor);
+  }
+
+  & h2::before,
+  h2::after {
+    background-color: var(--textColor);
+  }
+}
+
+.box.fourth {
+  background-color: var(--navHover);
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.3);
+
+  & p {
+    color: var(--textColor);
+  }
+
+  & h2 {
+    color: var(--textColor);
+  }
+
+  & h2::before,
+  h2::after {
+    background-color: var(--textColor) !important;
+  }
+}
+
+.box.fifth {
+  background-color: var(backgroundColor);
+  & p {
+    color: var(--titleColor);
+  }
+}

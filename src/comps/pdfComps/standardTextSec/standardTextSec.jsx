@@ -33,9 +33,19 @@ export default function standardTextSec({ obj, children }) {
   return (
     <>
       <section className={styles.sec} ref={box}>
-        <ImgBcSec title={obj?.title} />
+        {obj?.imgHeader == true ? (
+          <ImgBcSec title={obj?.title} />
+        ) : (
+          <div className="container">
+            <Line>{obj?.title}</Line>
+          </div>
+        )}
         <div className="container">
-          <div className={styles.content}>{children}</div>
+          <div
+            className={`${styles.content} ${obj?.imgHeader ? "" : styles.alt}`}
+          >
+            {children}
+          </div>
         </div>
       </section>
     </>

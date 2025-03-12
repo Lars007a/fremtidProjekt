@@ -1,9 +1,4 @@
 import "./template.css";
-import Header from "./comps/header/header.jsx";
-import Navbar from "./comps/navbar/navbar.jsx";
-import Footer from "./comps/footer/footer.jsx";
-import ScrollDownBtn from "./comps/ScrollDownBtn/scrollDownBtn.jsx";
-import BlueSection from "./comps/blueSection/blueSection.jsx";
 import { useRoutes } from "react-router-dom";
 import Web from "./pages/web/web.jsx";
 import Pdf from "./pages/pdf/pdf.jsx";
