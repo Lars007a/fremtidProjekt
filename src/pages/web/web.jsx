@@ -23,7 +23,7 @@ export default function web() {
       <Textsec
         contentObj={{
           title: "Introduktion",
-          text: "Kunstig intelligens kan i dag skabe tekster, billeder, videoer og meget mere. Ofte sker dette på få sekunder eller minutter. Modeller som ChatGPT kan skrive artikler og historier, mens andre modeller kan lave billeder på baggrund af en simpel beskrivelse. AI ændrer måden, vi laver og forbruger indhold på internettet på – men hvordan ville det påvirke os og internettet?",
+          text: "Kunstig intelligens kan i dag skabe tekster, billeder, videoer og meget mere. Ofte sker dette på få sekunder eller minutter. Modeller som ChatGPT kan skrive artikler og historier, mens andre modeller kan lave billeder på baggrund af en simpel beskrivelse. AI ændrer måden, vi laver og forbruger indhold på internettet på. Men hvordan ville det påvirke os og internettet?",
         }}
       >
         <ScrollDownBtn
@@ -100,8 +100,9 @@ export default function web() {
           personalisering på internettet. Sociale medier bruger algoritmer til
           at vise brugerne det indhold, de sandsynligvis vil engagere sig med.
           Dette kan udvides til at omfatte alt fra nyhedsartikler til videospil,
-          hvor indholdet tilpasses den enkelte bruger, og hvad han eller hun kan
-          lide. Men dette er ikke uden udfordringer.
+          hvor indholdet tilpasses den enkelte bruger ved hjælp af AI genereret
+          indhold, og hvad han eller hun kan lide. Men dette er ikke uden
+          udfordringer.
         </Text>
         <QuickBtn href={"/pdf#personalisering"}>Se mere</QuickBtn>
       </Infosec>
@@ -123,8 +124,8 @@ export default function web() {
 
       <Textsec
         contentObj={{
-          title: "Er du interesseret?",
-          text: "Hvordan påvirker kunstig intelligens det digitale indhold, vi ser hver dag? Hvordan ville det påvirke det vi ser i fremtiden? Fra tekster og billeder til videoer og musik – AI spiller en større og større rolle. Læs mere om udviklingen, mulighederne og udfordringerne i denne dokumentet her:",
+          title: "Er du interesseret i at vide mere?",
+          text: "",
         }}
       >
         <ScrollDownBtn

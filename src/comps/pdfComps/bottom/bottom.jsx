@@ -8,8 +8,8 @@ export default function bottom() {
     <>
       <Textsec
         contentObj={{
-          title: "Kilder",
-          text: "Nedenunder er der en kort liste over nogle af kilderne brugt til dokumentet.",
+          title: "Links",
+          text: "Nedenunder er der en kort liste over nogle links. Hvor du kan læse mere.",
           sourceList: (
             <ul>
               <li>

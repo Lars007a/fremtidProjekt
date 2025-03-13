@@ -18,13 +18,13 @@ header {
 
   & .headerText {
     margin: 0 auto;
-    width: 500px;
+    width: 600px;
     top: 35%;
     position: relative;
   }
 
   & h1 {
-    font-size: 40px;
+    font-size: 38px;
     text-align: center;
     color: var(--HeaderTextColor);
   }

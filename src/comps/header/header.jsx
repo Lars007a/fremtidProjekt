@@ -8,11 +8,10 @@ export default function header({ btnText, btnHref }) {
           <source src="/bc.mp4" type="video/mp4" />
         </video>
         <div class={styles.headerText}>
-          <h1>AI genereret indhold på internettet</h1>
+          <h1>Fremtiden og AI genereret indhold på internettet</h1>
           <p>
             Kunstig intelligens skaber i dag tekster, billeder, videoer og endda
-            musik. Hvordan påvirker det vores digitale verden – og hvad bringer
-            fremtiden?
+            musik. Hvordan ville det påvirke vores digitale verden?
           </p>
           <div className={styles.btnCon}>
             <a href={btnHref}>

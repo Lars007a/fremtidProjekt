@@ -9,7 +9,7 @@ import Bottom from "../../comps/pdfComps/bottom/bottom.jsx";
 export default function pdfSite() {
   return (
     <>
-      <Header btnHref={"#intro"} btnText={"Start!"} />
+      <Header btnHref={"#intro"} btnText={"Læs videre"} />
       <StandardTextSec
         obj={{
           title: "Introduktion",
