@@ -215,7 +215,7 @@ export default function pdfSite() {
           pågældende hjemmeside.
         </Text>
 
-        <EmbeddedImg img={searchEngineImg}>
+        <EmbeddedImg img={searchEngine}>
           <Text>
             Som sagt sker dette allerede nu. Mange folk spørger bare ChatGPT
             eller de andre modeller, hvis de har et spørgsmål, i stedet for den

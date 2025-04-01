@@ -9,6 +9,9 @@ function App() {
     { path: "/", element: <Web /> },
     { path: "/web", element: <Web /> },
     { path: "/pdf", element: <Pdf /> },
+    { path: "/fremtidProjekt/", element: <Web /> },
+    { path: "/fremtidProjekt/web", element: <Web /> },
+    { path: "/fremtidProjekt/pdf", element: <Pdf /> },
   ]);
 
   //Hvis den side, der skal vises. Siden her bliver vist af main.jsx, som bliver loadet af index.html.

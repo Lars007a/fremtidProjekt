@@ -54,24 +54,24 @@ export default function navbar() {
             </div>
             <ul onClick={handleNavTurn}>
               <li>
-                <HashLink to="/web#overblik">Hvordan virker og bruges</HashLink>
+                <HashLink to="#overblik">Hvordan virker og bruges</HashLink>
               </li>
               <li>
-                <HashLink to="/web#social">Sociale medier</HashLink>
+                <HashLink to="#social">Sociale medier</HashLink>
               </li>
               <li>
-                <HashLink to="/web#udfordringer">Udfordringer</HashLink>
+                <HashLink to="#udfordringer">Udfordringer</HashLink>
               </li>
               <li>
-                <HashLink to="/web#personalisering">Personalisering</HashLink>
+                <HashLink to="#personalisering">Personalisering</HashLink>
               </li>
               <li>
-                <HashLink to="/web#soegemaskiner">Søgemaskiner</HashLink>
+                <HashLink to="#soegemaskiner">Søgemaskiner</HashLink>
               </li>
               <li>
-                <a href="#pdf">
+                <HashLink href="/pdf">
                   <button>Se PDF</button>
-                </a>
+                </HashLink>
               </li>
             </ul>
             <div className={styles.hamburgerCon} onClick={handleNavTurn}>

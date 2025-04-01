@@ -1,5 +1,6 @@
 import styles from "./header.module.css";
 import vid from "../../../public/bc.mp4";
+import { HashLink } from "react-router-hash-link";
 
 export default function header({ btnText, btnHref }) {
   return (
@@ -15,9 +16,9 @@ export default function header({ btnText, btnHref }) {
             musik. Hvordan ville det påvirke vores digitale verden?
           </p>
           <div className={styles.btnCon}>
-            <a href={btnHref}>
+            <HashLink href={btnHref}>
               <button>{btnText}</button>
-            </a>
+            </HashLink>
           </div>
         </div>
       </header>
