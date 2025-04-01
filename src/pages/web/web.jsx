@@ -131,7 +131,7 @@ export default function web() {
         <ScrollDownBtn
           btnText={"Se fulde tekst dokument!"}
           icon={<FaLongArrowAltRight color="#ffffff" size={20} />}
-          href={"/pdf"}
+          href={"#pdf"}
         />
       </Textsec>
 

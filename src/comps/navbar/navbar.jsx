@@ -69,7 +69,7 @@ export default function navbar() {
                 <HashLink to="/web#soegemaskiner">Søgemaskiner</HashLink>
               </li>
               <li>
-                <a href="/pdf">
+                <a href="#pdf">
                   <button>Se PDF</button>
                 </a>
               </li>

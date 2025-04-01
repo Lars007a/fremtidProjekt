@@ -6,6 +6,9 @@ import Footer from "../../comps/footer/footer.jsx";
 import EmbeddedImg from "../../comps/pdfComps/embeddedImg/embeddedImg.jsx";
 import Bottom from "../../comps/pdfComps/bottom/bottom.jsx";
 
+import imgten from "../../../public/img10.jpg";
+import searchEngine from "../../../public/searchEngine.jpg";
+
 export default function pdfSite() {
   return (
     <>
@@ -97,7 +100,7 @@ export default function pdfSite() {
           Dette skaber en mere personlig og engagerende brugeroplevelse, men det
           har også nogle ulemper.
         </Text>
-        <EmbeddedImg img={"/img10.jpg"}>
+        <EmbeddedImg img={imgten}>
           <Text>
             AI-algoritmer på sociale medier er designet til at maksimere
             brugerens tid på platformen. Dette betyder, at indhold der er
@@ -212,7 +215,7 @@ export default function pdfSite() {
           pågældende hjemmeside.
         </Text>
 
-        <EmbeddedImg img={"/searchEngine.jpg"}>
+        <EmbeddedImg img={searchEngineImg}>
           <Text>
             Som sagt sker dette allerede nu. Mange folk spørger bare ChatGPT
             eller de andre modeller, hvis de har et spørgsmål, i stedet for den

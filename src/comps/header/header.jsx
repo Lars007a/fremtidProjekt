@@ -1,12 +1,12 @@
 import styles from "./header.module.css";
-import vid from "/bc.mp4";
+import vid from "../../../public/bc.mp4";
 
 export default function header({ btnText, btnHref }) {
   return (
     <>
       <header>
         <video autoPlay muted loop>
-          <source src="/bc.mp4" type="video/mp4" />
+          <source src={vid} type="video/mp4" />
         </video>
         <div class={styles.headerText}>
           <h1>Fremtiden og AI genereret indhold på internettet</h1>
