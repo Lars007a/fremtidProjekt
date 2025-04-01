@@ -19,7 +19,7 @@ export default function web() {
   return (
     <>
       <Navbar />
-      <Header btnHref={"/pdf"} btnText={"Se hele dokumentet"} />
+      <Header btnHref={"/pdf"} btnText={"Se hele dokumentet!"} />
       <Textsec
         contentObj={{
           title: "Introduktion",

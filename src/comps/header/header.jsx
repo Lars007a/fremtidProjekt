@@ -16,7 +16,7 @@ export default function header({ btnText, btnHref }) {
             musik. Hvordan ville det påvirke vores digitale verden?
           </p>
           <div className={styles.btnCon}>
-            <HashLink href={btnHref}>
+            <HashLink href={btnHref} to={btnHref}>
               <button>{btnText}</button>
             </HashLink>
           </div>
