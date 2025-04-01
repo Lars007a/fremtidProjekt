@@ -1,4 +1,5 @@
 import styles from "./header.module.css";
+import vid from "/bc.mp4";
 
 export default function header({ btnText, btnHref }) {
   return (
