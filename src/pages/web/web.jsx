@@ -19,7 +19,7 @@ export default function web() {
   return (
     <>
       <Navbar />
-      <Header btnHref={"/pdf"} btnText={"Se hele dokumentet!"} />
+      <Header btnHref={"/pdf#top"} btnText={"Se hele dokumentet!"} />
       <Textsec
         contentObj={{
           title: "Introduktion",
@@ -49,7 +49,7 @@ export default function web() {
           det endda muligt at skabe realistiske videoer. Disse teknologier
           kommer i fremtiden til at blive brugt mere og mere på internettet.
         </Text>
-        <QuickBtn href={"/pdf"}>Læs mere</QuickBtn>
+        <QuickBtn href={"/pdf#top"}>Læs mere</QuickBtn>
       </Infosec>
 
       <Infosec
@@ -67,7 +67,7 @@ export default function web() {
           vil se endnu mere AI-genereret indhold på sociale medier, hvilket
           rejser spørgsmål om ægthed og originalitet.
         </Text>
-        <QuickBtn href={"/pdf"}>Læs mere</QuickBtn>
+        <QuickBtn href={"/pdf#top"}>Læs mere</QuickBtn>
       </Infosec>
 
       <Infosec
@@ -85,7 +85,7 @@ export default function web() {
           til at spotte manipulation. Men siden dette nok ikke er nok, skal man
           altid være kildekritisk.
         </Text>
-        <QuickBtn href={"/pdf"}>Læs mere</QuickBtn>
+        <QuickBtn href={"/pdf#top"}>Læs mere</QuickBtn>
       </Infosec>
 
       <Infosec
@@ -104,7 +104,7 @@ export default function web() {
           indhold, og hvad han eller hun kan lide. Men dette er ikke uden
           udfordringer.
         </Text>
-        <QuickBtn href={"/pdf"}>Se mere</QuickBtn>
+        <QuickBtn href={"/pdf#top"}>Se mere</QuickBtn>
       </Infosec>
 
       <Infosec
@@ -131,7 +131,7 @@ export default function web() {
         <ScrollDownBtn
           btnText={"Se fulde tekst dokument!"}
           icon={<FaLongArrowAltRight color="#ffffff" size={20} />}
-          href={"/pdf"}
+          href={"/pdf#top"}
         />
       </Textsec>
 

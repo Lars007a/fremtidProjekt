@@ -39,7 +39,7 @@ export default function bottom() {
         <ScrollDownBtn
           btnText={"Gå tilbage til forsiden"}
           icon={<FaLongArrowAltRight color="#ffffff" size={20} />}
-          href={"/web"}
+          href={"/web#top"}
         />
       </Textsec>
     </>
